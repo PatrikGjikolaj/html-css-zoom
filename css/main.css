@@ -28,7 +28,7 @@ header{
 }
 /* Proprietà main */
 main{
-    height: 85%;
+    height: 88%;
 }
 .boxMain{
     display: flex;
@@ -43,6 +43,8 @@ main{
     position: relative;
     width: calc(90% / 7);
     margin: 10px;
+    background-color: white;
+    justify-content: center;
 }
 .name{
     background-color: #00000050;
@@ -52,12 +54,12 @@ main{
     left: 0%;
 }
 img{
-    max-width: 80%;
+    width: 80%;
     display: block;
 }
 /* Proprietà footer */
 footer{
-    height: 10%;
+    height: 7%;
     background-color: #222222;
     color: white;
 }
