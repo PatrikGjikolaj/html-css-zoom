@@ -25,11 +25,12 @@
 .boxMain{
     display: flex;
     flex-wrap: wrap;
+    background-color: #000000;
 }
 .user{
     position: relative;
     width: calc(95% / 7);
-    margin: 0 auto;
+    margin: auto;
 }
 .name{
     background-color: #00000050;
