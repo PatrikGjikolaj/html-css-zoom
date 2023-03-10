@@ -22,8 +22,8 @@ header{
 .boxHeader > div{
     background-color: #4a4a4a;
     color: white;
-    padding: 10px;
-    margin: 2px;
+    padding: 8px;
+    margin: 1px;
     border-radius: 10px;
 }
 /* Proprietà main */
@@ -54,12 +54,13 @@ main{
     left: 0%;
 }
 img{
-    width: 80%;
+    width: 100%;
     display: block;
 }
 /* Proprietà footer */
 footer{
     height: 7%;
+    width: 100%;
     background-color: #222222;
     color: white;
 }
@@ -71,6 +72,7 @@ footer{
 .elementiFooter{
     display: flex;
     align-items: center;
+    width: calc(100% / 3);
 }
 .elementiSx {
     text-align: center;
@@ -81,15 +83,18 @@ footer{
 }
 .elementiDx {
     text-align: center;
+    padding: 10px;
+    justify-content: end;
+}
+.endCall{
     color: red;
     background-color: #4a4a4a;
-    padding: 10px;
 }
 .icon{
-    font-size: 20px;
+    font-size: 15px;
 }
 small{
-    font-size: 10px;
+    font-size: 8px;
 }
 .elementiSx > i{
     margin: 10px;
