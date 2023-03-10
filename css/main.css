@@ -45,7 +45,7 @@ main{
 .user{
     position: relative;
     width: calc(90% / 7);
-    margin: 10px;
+    margin: auto;;
     background-color: white;
     justify-content: center;
 }
