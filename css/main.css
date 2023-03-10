@@ -91,10 +91,10 @@ footer{
     background-color: #4a4a4a;
 }
 .icon{
-    font-size: 15px;
+    font-size: clamp(1px, 50vh,15px);
 }
 small{
-    font-size: 8px;
+    font-size: clamp(1px, 50vh,10px);
 }
 .elementiSx > i{
     margin: 10px;
