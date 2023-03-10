@@ -75,6 +75,7 @@ footer{
 }
 .elementiFooter{
     display: flex;
+    justify-content: center;
     width: calc(100% / 3);
 }
 .elementiSx {
@@ -83,6 +84,7 @@ footer{
 .elementiCn {
     text-align: center;
     margin: 0 auto;
+    justify-content: center;
 }
 .elementiDx {
     text-align: center;
